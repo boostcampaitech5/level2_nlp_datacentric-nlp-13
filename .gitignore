@@ -16,6 +16,7 @@ code/.ipynb_checkpoints/
 dacon/
 data/
 output/
+results/
 .profile
 .wget-hsts
 nohup.out
