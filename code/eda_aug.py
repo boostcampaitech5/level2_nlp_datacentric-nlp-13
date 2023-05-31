@@ -112,5 +112,5 @@ if __name__ == '__main__':
     output = pd.concat([data, random_swap])
     print(f'기존 데이터 길이 : {len(data)}')
     print(f'증강 후 데이터 길이 : {len(output)}')
-    output.to_csv('data/aug_data_rs.csv')
+    output.to_csv('data/aug_data_rs.csv', index=False)
     print("SUCCESSFULLY SAVED!")
