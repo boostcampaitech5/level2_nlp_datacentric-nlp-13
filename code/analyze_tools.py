@@ -5,9 +5,9 @@ from sklearn.metrics import classification_report
 
 
 '''
-classfication report
+classification report
 '''
-def classfication_report(y_true, y_predicted):
+def classification_report(y_true, y_predicted):
     report = classification_report(y_true, y_predicted)
     print(report)
 
