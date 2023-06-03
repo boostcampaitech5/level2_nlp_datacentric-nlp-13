@@ -82,7 +82,7 @@
 |   │   ├──preprocess.ipynb
 |   │   └──reLabeling.ipynb
 │   ├── data/ (private)
-|   ├── dataAnalysis/ 
+|   ├── data_analysis/ 
 |   │   ├──EDA_JHJ.ipynb
 |   │   ├──EDA_KJS.ipynb
 |   │   └──word_cloud.ipynb
