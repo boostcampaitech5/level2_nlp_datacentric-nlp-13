@@ -130,7 +130,7 @@ def translate(dataset):
     return dataset
 
 if __name__ == '__main__':
-    train_data = pd.read_csv('./data/no_noise_data.csv')
+    train_data = pd.read_csv('../data/no_noise_data.csv')
     train_data2 = translate(train_data)
     train = pd.concat([train_data, train_data2])
-    train.to_csv('./data/backtrans.csv')
+    train.to_csv('../data/backtrans.csv')
