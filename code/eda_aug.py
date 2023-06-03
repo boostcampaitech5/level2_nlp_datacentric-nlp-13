@@ -3,6 +3,8 @@ from koeda import SR, RI, RS, RD
 from tqdm.auto import tqdm
 import pandas as pd
 
+#Easy Data Augmentation (EDA)
+
 def sr(df, num):
     """
     문장 내 단어를 유의어로 바꿔주는 함수입니다.
@@ -105,12 +107,12 @@ def rd(df, num):
 
 if __name__ == '__main__':
     num = 0.3 # 변형 정도
-    data = pd.read_csv("data/no_noise_del_keyword.csv")
+    data = pd.read_csv("../data/no_noise_del_keyword.csv")
     random_swap = rs(data, num)
     # 아래로 쭉쭉 추가해서 concat list에 aug 할 거 추가해주세여
     print(random_swap.head(5))
     output = pd.concat([data, random_swap])
     print(f'기존 데이터 길이 : {len(data)}')
     print(f'증강 후 데이터 길이 : {len(output)}')
-    output.to_csv('data/aug_data_rs.csv', index=False)
+    output.to_csv('../data/aug_data_rs.csv', index=False)
     print("SUCCESSFULLY SAVED!")
