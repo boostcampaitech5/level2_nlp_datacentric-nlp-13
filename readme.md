@@ -60,11 +60,11 @@
 
 | 이름 | 역할 |
 | :----: | --- |
-| **김윤희** |  |
-| **김주성** | 깃헙 기본 세팅 |
-| **박지연** |  |
-| **이준범** |  |
-| **정효정** |  |
+| **김윤희** | 데이터 증강(EDA,역번역) |
+| **김주성** | 깃헙 기본 세팅, 데이터 크롤링 |
+| **박지연** | 데이터 증강(EDA), 데이터 전처리  |
+| **이준범** | 데이터 크롤링, Label Error Detection |
+| **정효정** | 데이터 증강(chatGPT 이용), 데이터 전처리(불용어 및 특수문자 제거,한자->한글 변환), 텍스트 relabeling |
 
 <br>
 
@@ -74,12 +74,25 @@
 ├── level2_datacentric-nlp-13
 |   ├── basecode/ (private)
 │   ├── code/ 
-|   │   ├──eda.ipynb
+|   │   ├──data_augmentation.py
+|   │   ├──eda_aug.py
 |   │   ├──find_noise.py
+|   │   ├──get_keywords.ipynb
 |   │   ├──get_original_text.py
 |   │   ├──preprocess.ipynb
+|   │   └──reLabeling.ipynb
 │   ├── data/ (private)
-│   └── fonts/ 
+|   ├── dataAnalysis/ 
+|   │   ├──EDA_JHJ.ipynb
+|   │   ├──EDA_KJS.ipynb
+|   │   └──word_cloud.ipynb
+|   ├── fonts/  
+|   ├── utils/ 
+|   │   ├──EDA_KJS.ipynb
+|   │   └──word_cloud.ipynb
+|   ├── .gitignore
+|   ├── readme.md
+|   └── requirements.txt
 ```
 <br>
 
