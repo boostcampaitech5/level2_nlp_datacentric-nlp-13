@@ -18,7 +18,7 @@ confusion matrix
 '''
 
 def confusion_matrix(y_true, y_predicted, norm=True):
-    if norm = True:
+    if norm == True:
         confusion_matrix  = confusion_matrix.astype('float') / confusion_matrix.sum(axis=1)[:, np.newaxis]
     else:
         confusion_matrix = confusion_matrix(y_true, y_predicted)
