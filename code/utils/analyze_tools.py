@@ -6,6 +6,7 @@ from sklearn.metrics import classification_report
 
 '''
 classification report
+라벨 별로 precision, recall, f1 score 확인 
 '''
 def classification_report(y_true, y_predicted):
     report = classification_report(y_true, y_predicted)
@@ -15,6 +16,7 @@ def classification_report(y_true, y_predicted):
 
 '''
 confusion matrix
+norm = True일 경우 정규화
 '''
 
 def confusion_matrix(y_true, y_predicted, norm=True):
