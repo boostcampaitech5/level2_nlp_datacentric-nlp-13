@@ -3,7 +3,7 @@
 ## ✅ 목차
 [1. 정보](##-📜-정보) > [2. 진행 과정](##-진행-과정) > [3. 팀원](##-팀원) > [4. 역할](##-역할) > [5. 디렉토리 구조](##-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EA%B5%AC%EC%A1%B0) > [6. 프로젝트 구성](##-프로젝트-구성)
 
-➡️ [랩업 리포트 보기]()
+➡️ [랩업 리포트 보기](https://docs.google.com/document/d/1uA5vxG0wrwAiOJLM7RKzawpjKWJ0YfSN0XgTKUeqoFg/edit?usp=sharing)
 <br>
 
 ## 📜 정보
